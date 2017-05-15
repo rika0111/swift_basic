@@ -14,6 +14,8 @@
 		89AB00A21EBCBCDF00216895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AB00A01EBCBCDF00216895 /* LaunchScreen.storyboard */; };
 		89AB00AD1EBCBCDF00216895 /* WaribikikeisanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB00AC1EBCBCDF00216895 /* WaribikikeisanTests.swift */; };
 		89AB00B81EBCBCDF00216895 /* WaribikikeisanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB00B71EBCBCDF00216895 /* WaribikikeisanUITests.swift */; };
+		89AB00C61EBF464700216895 /* PercenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB00C51EBF464700216895 /* PercenViewController.swift */; };
+		89AB00C81EBF4C0700216895 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB00C71EBF4C0700216895 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		89AB00B31EBCBCDF00216895 /* WaribikikeisanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaribikikeisanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AB00B71EBCBCDF00216895 /* WaribikikeisanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaribikikeisanUITests.swift; sourceTree = "<group>"; };
 		89AB00B91EBCBCDF00216895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AB00C51EBF464700216895 /* PercenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercenViewController.swift; sourceTree = "<group>"; };
+		89AB00C71EBF4C0700216895 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				89AB00971EBCBCDF00216895 /* AppDelegate.swift */,
 				89AB00991EBCBCDF00216895 /* ViewController.swift */,
 				89AB009B1EBCBCDF00216895 /* Main.storyboard */,
+				89AB00C51EBF464700216895 /* PercenViewController.swift */,
+				89AB00C71EBF4C0700216895 /* ResultViewController.swift */,
 				89AB009E1EBCBCDF00216895 /* Assets.xcassets */,
 				89AB00A01EBCBCDF00216895 /* LaunchScreen.storyboard */,
 				89AB00A31EBCBCDF00216895 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AB00C61EBF464700216895 /* PercenViewController.swift in Sources */,
 				89AB009A1EBCBCDF00216895 /* ViewController.swift in Sources */,
 				89AB00981EBCBCDF00216895 /* AppDelegate.swift in Sources */,
+				89AB00C81EBF4C0700216895 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
