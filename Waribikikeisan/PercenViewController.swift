@@ -1,5 +1,3 @@
-// View
-
 import UIKit
 
 class PercenViewController: UIViewController {
@@ -38,53 +36,59 @@ class PercenViewController: UIViewController {
         cluculaterClick(num: "2")
     }
     
-    
+    // 3ボタンクリックの時呼ばれる
     @IBAction func threePerce(_ sender: Any) {
         cluculaterClick(num: "3")
     }
     
-    
+
+    // 4ボタンクリックの時呼ばれる
     @IBAction func fourPerce(_ sender: Any) {
         cluculaterClick(num: "4")
     }
     
     
+    // 5ボタンクリックの時呼ばれる
     @IBAction func fivePerce(_ sender: Any) {
         cluculaterClick(num: "5")
     }
     
-    
+    // 6ボタンクリックの時呼ばれる
     @IBAction func sixPerce(_ sender: Any) {
         cluculaterClick(num: "6")
     }
     
-    
+    // 7ボタンクリックの時呼ばれる
     @IBAction func sevenPerce(_ sender: Any) {
         cluculaterClick(num: "7")
     }
     
     
+    // 8ボタンクリックの時呼ばれる
     @IBAction func eightPerce(_ sender: Any) {
         cluculaterClick(num: "8")
     }
     
     
+    // 9ボタンクリックの時呼ばれる
     @IBAction func ninePerce(_ sender: Any) {
         cluculaterClick(num: "9")
     }
     
     
+    // 0ボタンクリックの時呼ばれる
     @IBAction func zeroPerce(_ sender: Any) {
         cluculaterClick(num: "0")
     }
     
     
+    // Cボタンクリックの時呼ばれる
     @IBAction func clearPerce(_ sender: Any) {
         priceField.text =  "0"
     }
     
     
-    // ゼロが冒頭に入らないようにする
+    // ゼロが冒頭に入らないようにするメソッド
     func cluculaterClick (num :String) {
         if priceField.text == "0" {
             priceField.text = num
