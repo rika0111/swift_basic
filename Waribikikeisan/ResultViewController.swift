@@ -1,4 +1,3 @@
-//
 //  ResultViewController.swift
 
 import UIKit
