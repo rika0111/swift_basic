@@ -1,6 +1,5 @@
 //
 //  ResultViewController.swift
-//  Waribikikeisan
 
 import UIKit
 
