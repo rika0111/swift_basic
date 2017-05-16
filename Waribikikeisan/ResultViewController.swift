@@ -1,5 +1,3 @@
-//  ResultViewController.swift
-
 import UIKit
 
 class ResultViewController: UIViewController {
