@@ -1,4 +1,4 @@
-// 割引View
+// View
 
 import UIKit
 
