@@ -28,12 +28,12 @@ class PercenViewController: UIViewController {
     }
     
     
-    //1ボタンクリックの時呼ばれる
+    // 1ボタンクリックの時呼ばれる
     @IBAction func onePerce(_ sender: Any) {
         cluculaterClick(num: "1")
     }
     
-    
+    // 2ボタンクリックの時呼ばれる
     @IBAction func twoPerce(_ sender: Any) {
         cluculaterClick(num: "2")
     }
