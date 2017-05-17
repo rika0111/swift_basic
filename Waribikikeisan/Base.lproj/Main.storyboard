@@ -174,7 +174,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zj9-Hz-J5k" kind="modal" id="9HV-Sa-5on"/>
+                                    <segue destination="Zj9-Hz-J5k" kind="modal" animates="NO" id="9HV-Sa-5on"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -221,7 +221,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="hon-zc-6Uq"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="hon-zc-6Uq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -412,7 +412,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hmh-pl-2XV" kind="modal" id="oOS-Vz-fpY"/>
+                                    <segue destination="hmh-pl-2XV" kind="modal" animates="NO" id="oOS-Vz-fpY"/>
                                 </connections>
                             </button>
                         </subviews>

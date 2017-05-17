@@ -11,12 +11,12 @@ import UIKit
 class ResultViewController: UIViewController {
 
     @IBOutlet weak var resultTextView: UITextField!
-    var result: Int = 0
+    var resultnumber: Int = 0
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        resultTextView.text = String(result)
+        resultTextView.text = String(resultnumber)
     }
 
     override func didReceiveMemoryWarning() {

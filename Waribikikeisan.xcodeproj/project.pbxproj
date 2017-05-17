@@ -50,7 +50,7 @@
 		89AB00B71EBCBCDF00216895 /* WaribikikeisanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaribikikeisanUITests.swift; sourceTree = "<group>"; };
 		89AB00B91EBCBCDF00216895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89AB00C51EBF464700216895 /* PercenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercenViewController.swift; sourceTree = "<group>"; };
-		89AB00C71EBF4C0700216895 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		89AB00C71EBF4C0700216895 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -513,6 +513,7 @@
 				89AB00BE1EBCBCDF00216895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89AB00BF1EBCBCDF00216895 /* Build configuration list for PBXNativeTarget "WaribikikeisanTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				89AB00C11EBCBCDF00216895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89AB00C21EBCBCDF00216895 /* Build configuration list for PBXNativeTarget "WaribikikeisanUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				89AB00C41EBCBCDF00216895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
