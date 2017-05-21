@@ -1,5 +1,3 @@
-// 割引View
-
 import UIKit
 
 class PercenViewController: UIViewController {
@@ -43,7 +41,11 @@ class PercenViewController: UIViewController {
         cluculaterClick(num: "3")
     }
     
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 89952a694d6560a735b43eafc0d749641a13d0f6
     // 4ボタンクリックの時呼ばれる
     @IBAction func fourPerce(_ sender: Any) {
         cluculaterClick(num: "4")
