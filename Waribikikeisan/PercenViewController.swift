@@ -22,7 +22,7 @@ class PercenViewController: UIViewController {
         var secondPrice = Int(priceField.text!)
         
         // PercentViewControllerの変数priceに電卓表示画面に残ってる数字を入れる
-        resultView.result = price-(price*secondPrice!/100)
+        resultView.resultnumber = price-(price*secondPrice!/100)
     }
     
     
@@ -41,11 +41,6 @@ class PercenViewController: UIViewController {
         cluculaterClick(num: "3")
     }
     
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 89952a694d6560a735b43eafc0d749641a13d0f6
     // 4ボタンクリックの時呼ばれる
     @IBAction func fourPerce(_ sender: Any) {
         cluculaterClick(num: "4")
